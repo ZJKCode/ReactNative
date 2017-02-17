@@ -2,7 +2,8 @@ import React, {Component, PropTypes} from 'react';
 import{
   View,
   Text,
-  TouchableHighlight
+  TouchableHighlight,
+
 }from 'react-native';
 
 export default class MyScene extends Component {

@@ -10,7 +10,7 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableHighlight
+  TouchableHighlight,
 } from 'react-native';
 
 export default class button extends Component {

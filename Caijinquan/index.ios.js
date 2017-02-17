@@ -13,11 +13,11 @@ import PizzaTranslator from './commonjs/PizzaTranslator.js';
 import AnimatedTest from './commonjs/AnimatedTest.js';
 import MapViewExample from './commonjs/RNMapViewExample';
 import FlexExample from './commonjs/FlexExample.js'
-import SimpleNavigationApp from './commonjs/SimpleNavigation.js';
+import TabBar from './iosjs/TabBar.js';
 
 import React, { Component } from 'react';
 import {
   AppRegistry
 } from 'react-native';
 
-AppRegistry.registerComponent('Caijinquan', () => SimpleNavigationApp);
+AppRegistry.registerComponent('Caijinquan', () => TabBar);

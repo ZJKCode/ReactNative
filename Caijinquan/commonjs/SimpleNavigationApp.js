@@ -15,6 +15,8 @@ import {
 import MyScene from './MyScene';
 
 export default class SimpleNavigationApp extends Component {
+
+
   render() {
     return (
     <Navigator
