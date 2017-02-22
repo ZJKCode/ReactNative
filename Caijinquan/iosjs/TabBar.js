@@ -5,8 +5,7 @@ var SimpleNavigationApp = require('../commonjs/SimpleNavigationApp');
 var FirstPage = require('../commonjs/FirstPage.js');
 var SecondPage = require('../commonjs/SecondPage.js');
 var ThirdPage = require('../commonjs/ThirdPage.js');
-var FourthPage = require('../commonjs/FourthPage.js');
-
+import FourthPage from '../commonjs/FourthPage.js';
 var {
   StyleSheet,
   Text,
