@@ -2,6 +2,8 @@ var React = require('react');
 var Demensions = require('Dimensions');
 var ReactNative = require('react-native');
 var PageControl = require('react-native-page-control');
+var SecondPage = require('./SecondPage.js');
+
 var {
   View,
   Text,
@@ -16,6 +18,7 @@ var index=0;
 var screen = Demensions.get('window');
 
 var ScrollViewExample = React.createClass({
+
 
   getInitialState: function () {
     return {
@@ -48,6 +51,12 @@ var ScrollViewExample = React.createClass({
         index++;
       }
     },2000);
+  },
+  popTo(){
+    const{navigator} = this.props;
+    if (navigator) {
+      navigator.pop();
+    }
   },
   render (){
     var _scrollView: ScrollView;
@@ -118,8 +127,6 @@ THUMBS = THUMBS.concat(THUMBS); // double length of THUMBS
 
 var createThumbRow = (uri, i) => <Thumb key={i} uri={uri} />;
 var createAdThumbRow = (uri, i) => <AdScroll key={i} uri={uri} />;
-
-
 
 const styles = StyleSheet.create({
   scrollView: {
