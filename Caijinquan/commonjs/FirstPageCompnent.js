@@ -40,7 +40,7 @@ export default class FirstPageCompnent extends React.Component {
   render (){
       if (this.state.user) {
         return(
-          <View>
+          <View style={{marginTop:20}}>
           <TouchableOpacity onPress={this._pressButton.bind(this)}>
             <Text>点我跳转 </Text>
             <Text>跳</Text>
@@ -56,7 +56,7 @@ export default class FirstPageCompnent extends React.Component {
 
       }else {
         return(
-          <View >
+          <View style={{marginTop:20}}>
             <TouchableOpacity onPress={this._pressButton.bind(this)}>
               <Text>点我跳转 </Text>
               <Text>跳</Text>

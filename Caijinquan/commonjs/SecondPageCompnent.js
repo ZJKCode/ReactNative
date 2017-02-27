@@ -44,7 +44,7 @@ export default class SecondPageCompnent extends React.Component {
 
   render (){
     return(
-      <View>
+      <View style={{marginTop:20}} >
       <TouchableOpacity onPress={this._pressButton.bind(this)}>
       <Text>点我回去 </Text>
       <Text> 回去</Text>
